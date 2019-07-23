@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LotteryLib">
-      <HintPath>..\..\..\LotteryLib\LotteryLib\bin\Release\LotteryLib.dll</HintPath>
+      <HintPath>..\..\bin\LotteryLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

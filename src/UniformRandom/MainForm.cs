@@ -37,6 +37,7 @@ namespace UniformRandom {
 
             _zhuitouTimes = int.Parse(txtBoxZhuitou.Text);
 
+            _genCodes.Clear();
             for (var i = 0; i < _txtBoxList.Count; i++) {
                 GenCode genCode;
                 genCode._curTimes = 0;
